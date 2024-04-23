@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>cutlery and food</title>
+    <style>
+        .rating {
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        .star {
+            color: #ddd;
+        }
+
+        .star:hover,
+        .star.active {
+            color: #ffcc00;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="Contact.html">Contact Us</a>
+        <div class="dropdown">
+            <button class="dropbtn">Menu
+                <i class="fa fa-caret-down""></i>
+            </button>
+            <div class=" dropdown-content">
+                    <a href="bremenu.html" target="_self">Breakfast</a>
+                    <a href="laumeanu.html" target="_self">Lunch</a>
+                    <a href="dimenu.html" target="_self">Dinner</a>
+                    <a href="snacmenu.html" target="_self">Snacks</a>
+                    <a href="dessmenu.html" target="_self">Dessert</a>
+        </div>
+
+    </div>
+
+    <div class="btn1">
+        <button class="button" onclick="document.location='form.php' " target="_blank"><span>Login </span></button>
+        <button class="button" onclick="myFunction()"><span>mode </span></button>
+    </div>
+
+
+
+    </div>
+
+
+    <div class="img">
+        <img src="img/bg15.png" alt="bg image">
+        <div class="quotes">
+            <p class="header" style="font-size: 40px; color:beige ;">Enjoy your</p><br>
+            <p class="header special" style="font-size: 40px;">Special</p><br>
+            <p class="header" style="font-size: 40px;color:beige ;">Delicious meal!!</p><br>
+            <a href="jo.php" target="_blank"><button class="btn">User Recipes</button></a>
+            <a href="subscription.php" target="_blank"><button class="btn">Subscription </button></a>
+
+
+
+        </div>
+
+    </div>
+
+    <br>
+
+    <div class="divider">Recipes</div>
+    <br>
+    <div class="cards">
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="img/1rec.jpg" alt="recipes" style="width:300px;height:300px;">
+                </div>
+                <div class="flip-card-back">
+                    <br>
+                    <h1>Spicy rice noodles</h1><br>
+                    <p>with crisp tofu and spinach</p><br>
+                    <a style="text-decoration: none; color: red;" href="dimenu.html">Click here...</a>
+                </div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="img/2rec.webp" alt="recipes" style="width:300px;height:300px;">
+                </div>
+                <div class="flip-card-back">
+                    <br>
+                    <h1>Jeweled Grains</h1><br>
+                    <p>with Broccoli Peas & Red Onion</p><br>
+                    <a style="text-decoration: none; color: red;" href="laumeanu.html">Click here...</a>
+                </div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="img/3rec.jpg" alt="recipes" style="width:300px;height:300px;">
+                </div>
+                <div class="flip-card-back">
+                    <br>
+                    <h1>Roasted Alfredo</h1><br>
+                    <p>with Butternut Squash</p><br>
+                    <a style="text-decoration: none; color: red;" href="dessmenu.html">Click here...</a>
+                </div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="img/buddha bowls.jpg" alt="recipes" style="width:300px;height:300px;">
+                </div>
+                <div class="flip-card-back">
+                    <br>
+                    <h1>Buddha Bowl</h1><br>
+                    <p>with veggies, beans & sauerkraut</p><br>
+                    <a style="text-decoration: none; color: red;" href="snacmenu.html">Click here...</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <div class="footer">
+        <div class="footer-link">
+            <div class="sub-footer-link">
+                <p><b><a class="links" href="index.html" target="_blank">Home</a></b></p><br>
+                <p><b><a class="links" href="about.html" target="_blank">About Us</a></b></p><br>
+                <p><b><a class="links" href="Contact.html" target="_blank">Contact Us</a></b></p><br>
+                <p><b><a class="links" href="subscription.php" target="_blank">Subscription</a></b></p><br>
+                
+                <p><b><a class="links" href="jo.php" target="_blank">user recipes</a></b></p><br>
+                
+            </div>
+
+            <div class="sub-footer-link">
+                <p><b><a class="links" href="bremenu.html" target="_blank">Breakfast</a></b></p><br>
+                <p><b><a class="links" href="laumeanu.html" target="_blank">Lunch</a></b></p><br>
+                <p><b><a class="links" href="snacmenu.html" target="_blank">Snacks</a></b></p><br>
+                <p><b><a class="links" href="dimenu.html" target="_blank">Dinner</a></b></p><br>
+                <p><b><a class="links" href="dessmenu.html" target="_blank">dessert</a></b></p><br>
+                <div class="search-bar">
+                    <h3 style="margin-left: 770px;">Feedback</h3><br>
+                    <form action="feeddb.php" method="post">
+                        <input type="text" name="comment" placeholder="Comment Please..">
+
+                </div><br>
+                <button class="submit-btn" type="submit">Submit</button>
+            </div>
+        </div>
+        <div class="social-media">
+            <h2>Follow Us</h2><br>
+            <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+            <a href=" https://twitter.com/" class="fa fa-twitter"></a>
+            <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+            <h6 class="copyright" style="margin-right: 10%;">&copy; Copyright 2024 HTML.am | Privacy Policy |
+                Acessibility Policy</h6>
+        </div>
+        </form>
+        
+    </div>
+
+    <script src="js/script1.js"></script>
+</body>
+
+</html>
